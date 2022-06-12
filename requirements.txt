@@ -4,3 +4,4 @@ pandas
 flask_cors
 keras
 numpy
+tensorflow
