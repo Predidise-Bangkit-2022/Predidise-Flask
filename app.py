@@ -19,4 +19,4 @@ def get():
     return Response(pd.Series(sorted_index).to_json(orient='values'), mimetype='application/json')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=False)
